@@ -1,0 +1,9 @@
+*.json
+output_data/*
+data/datanode/*
+data/namenode/*
+!data/datanode/.gitkeep
+!data/namenode/.gitkeep
+spark_jobs/load_raw_local.py
+spark_jobs/spark-warehouse
+.idea/*
